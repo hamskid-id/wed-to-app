@@ -13,7 +13,7 @@ export const AuthLayout=({
   })=>{
     const navigate = useNavigate()
     return(
-        <div className="bg-[#e0f2fe] h-screen w-full">
+        <div className="bg-[#f9fafb] h-screen w-full">
             <div className="flex flex-row w-full h-full">
                 <div className="w-[30rem] lg:block xl:block md:block sm:hidden relative authBg h-full bg-[#24243E]">
                      <div className="absolute bottom-[6rem] left-[2rem] right-[2rem]">

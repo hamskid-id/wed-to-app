@@ -1,13 +1,13 @@
+import { BrandingSection } from "@/components/customui/app/branding/view"
 import { EditLayout } from "@/components/customui/app/edit_app/editlayout"
-import { OverviewSection } from "@/components/customui/app/overview/view"
 // import { useParams } from "react-router-dom"
-export const OverviewPage =()=>{
+export const BrandingPage =()=>{
     // const{
     //     action
     // }=useParams();
     return(
         <EditLayout>
-            <OverviewSection />
+            <BrandingSection />
         </EditLayout>
     )
 }

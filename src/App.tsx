@@ -4,14 +4,29 @@ import { SignupPage } from './pages/auth/register';
 import { SigninPage } from './pages/auth/signin';
 import { DashboardHome } from './pages/home';
 import { OverviewPage } from './pages/app/overview';
+import { BrandingPage } from './pages/app/branding';
+import { LinkHandlingPage } from './pages/app/link_handling';
+import { InterfacePage } from './pages/app/interface';
+import { WebOveridesPage } from './pages/app/web_overides';
+import { AppPermissionPage } from './pages/app/app_permission';
+import { AppDownloadPage } from './pages/app/appdownload';
+import { NativePluginPage } from './pages/app/native_pugin';
 function App() {
 
   return (
       <Router>
           <Routes>
+            
+            <Route  path="/" element={ <DashboardHome/>}/>
             <Route path="app">
-              <Route  path="/app/home" element={ <DashboardHome/>}/>
               <Route  path="/app/:action/overview" element={ <OverviewPage/>}/>
+              <Route  path="/app/:action/branding" element={ <BrandingPage/>}/>
+              <Route  path="/app/:action/interface" element={ <InterfacePage/>}/>
+              <Route  path="/app/:action/link_handling" element={ <LinkHandlingPage/>}/>
+              <Route  path="/app/:action/web_overides" element={ <WebOveridesPage/>}/>
+              <Route  path="/app/:action/app_permission" element={ <AppPermissionPage/>}/>
+              <Route  path="/app/:action/native_plugins" element={ <NativePluginPage/>}/>
+              <Route  path="/app/:action/appdownload" element={ <AppDownloadPage/>}/>
             </Route>
             <Route path="auth">
               <Route path="/auth/signin" element={ <SigninPage/>}/>

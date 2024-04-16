@@ -1,13 +1,13 @@
 import { EditLayout } from "@/components/customui/app/edit_app/editlayout"
-import { OverviewSection } from "@/components/customui/app/overview/view"
+import { InterfaceSection } from "@/components/customui/app/interface/view"
 // import { useParams } from "react-router-dom"
-export const OverviewPage =()=>{
+export const InterfacePage =()=>{
     // const{
     //     action
     // }=useParams();
     return(
         <EditLayout>
-            <OverviewSection />
+            <InterfaceSection />
         </EditLayout>
     )
 }

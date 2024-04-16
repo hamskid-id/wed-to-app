@@ -2,8 +2,8 @@ import { AiOutlineMenu } from "react-icons/ai";
 
 export const TopNav =()=>{
     return(
-        <div className="fixed left-0 top-0 right-0 mb-4 flex lg:flex-row xl:flex-row md:flex-col sm:flex-col justify-between md:flex-col-reverse sm:flex-col-reverse items-center w-full gap-2">
-            <div className="flex items-center justify-between w-full bg-white p-2 rounded">
+        <div className="mb-2 flex lg:flex-row xl:flex-row md:flex-col sm:flex-col justify-between md:flex-col-reverse sm:flex-col-reverse items-center w-full gap-2 bg-black">
+            <div className="flex items-center justify-between w-full bg-black p-2 rounded">
                 <div className="flex gap-2 items-center">
                     <div className="lg:hidden xl:hidden md:block sm:block">
                         <div
@@ -30,7 +30,7 @@ export const TopNav =()=>{
                     
                 </div>
                 <div className="flex gap-[0.5rem] items-center"> 
-                    <span className="bg-[#fafafa] p-2 rounded">
+                    <span className="border border-[grey] p-2 rounded">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="grey" className="w-6 h-6">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
                         </svg>

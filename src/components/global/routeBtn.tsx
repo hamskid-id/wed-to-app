@@ -29,7 +29,7 @@ export const RouteBtn =({
                     {icon}
                 </span>
                 <Text
-                    style={`${pathname ===`/dashboard${route}`?"text-[#064e3b]":"text-black"}`}
+                    style={`${pathname ===`/dashboard${route}`?"text-[#064e3b]":"text-black"} text-md`}
                     value={name}
                 />
             </a>

@@ -15,7 +15,7 @@ export const DashBoardLayout=({
             <div className="mobileNav">
                 <SideNav/>
             </div>
-            <div className="w-full h-full pt-[5rem]">
+            <div className="w-full h-full">
                 <div 
                     className="flex bg-cl"
                     style={{
