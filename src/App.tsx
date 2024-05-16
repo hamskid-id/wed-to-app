@@ -11,6 +11,8 @@ import { WebOveridesPage } from './pages/app/web_overides';
 import { AppPermissionPage } from './pages/app/app_permission';
 import { AppDownloadPage } from './pages/app/appdownload';
 import { NativePluginPage } from './pages/app/native_pugin';
+import { AppServicePage } from './pages/app/app_service';
+import { AppAccessPage } from './pages/app/app_access';
 function App() {
 
   return (
@@ -27,6 +29,8 @@ function App() {
               <Route  path="/app/:action/app_permission" element={ <AppPermissionPage/>}/>
               <Route  path="/app/:action/native_plugins" element={ <NativePluginPage/>}/>
               <Route  path="/app/:action/appdownload" element={ <AppDownloadPage/>}/>
+              <Route  path="/app/:action/app_access" element={ <AppAccessPage/>}/>
+              <Route  path="/app/:action/app_service" element={ < AppServicePage/>}/>
             </Route>
             <Route path="auth">
               <Route path="/auth/signin" element={ <SigninPage/>}/>
