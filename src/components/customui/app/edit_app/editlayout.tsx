@@ -21,7 +21,7 @@ export const EditLayout =({
                         <div className="flex gap-2 text-lg items-center text-lg font-semibold">
                             <div className=" w-[3rem] h-[3rem] relative">
                                 <img
-                                    src="/laundry img.svg"
+                                    src="/brand_icon.png"
                                     alt="object not found"
                                     className="w-full"
                                 />

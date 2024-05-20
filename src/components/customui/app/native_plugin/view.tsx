@@ -25,7 +25,71 @@ export const NativePluginSection =()=>{
                 </CollapsibleComponent>
             </div>
             {
-                ["One Signal","Social Login","QR/Barcode scanner","Google Firebase Analytics","Face ID/Touch ID Android Biomet","In-App Purchases","App Review","Share into app","Native Datastore","Background Location","Haptics","HapAdMob Native Adstics","Native Media Player","Meta App Events","Native Contacts","Document Scanner","Secure Modal (Apple Pay)","Calendar","Offline Downloads","Card.io","Branch.io","NFC Tag Scanner"].map((plugins,index)=>{
+                [
+                    {
+                        img:"native2",
+                        value:"Social Login",
+                    },{
+                        img:"native3",
+                        value:"QR/Barcode scanner",
+                    },{
+                        img:"native4",
+                        value:"Google Firebase Analytics",
+                    },{
+                        img:"native5",
+                        value:"Face ID/Touch ID Android Biomet",
+                    },{
+                        img:"native6",
+                        value:"In-App Purchases",
+                    },{
+                        img:"native7",
+                        value:"App Review",
+                    },{
+                        img:"native8",
+                        value:"Share into app",
+                    },{
+                        img:"native9",
+                        value:"Native Datastore",
+                    },{
+                        img:"native10",
+                        value:"Background Location",
+                    },{
+                        img:"native11",
+                        value:"Haptics",
+                    },{
+                        img:"native12",
+                        value:"HapAdMob Native Adstics",
+                    },{
+                        img:"native13",
+                        value:"Native Media Player",
+                    },{
+                        img:"native14",
+                        value:"Meta App Events",
+                    },{
+                        img:"native15",
+                        value:"Native Contacts",
+                    },{
+                        img:"native16",
+                        value:"Document Scanner",
+                    },{
+                        img:"native17",
+                        value:"Secure Modal (Apple Pay)",
+                    },{
+                        img:"native18",
+                        value:"Calendar",
+                    },{
+                        img:"native19",
+                        value:"Offline Downloads",
+                    },{
+                        img:"native20",
+                        value:"Card.io",
+                    },{
+                        img:"native21",
+                        value:"Branch.io",
+                    },{
+                        img:"native22",
+                        value:"NFC Tag Scanner",
+                    }].map((plugins,index)=>{
                     return(
                             <div 
                                 className="p-4 bg-white"
@@ -39,14 +103,14 @@ export const NativePluginSection =()=>{
                                             <div className="flex-grow flex gap-2 items-center">
                                                 <div className=" w-[0.8rem] h-[0.8rem] relative">
                                                     <img
-                                                        src="/whitescreen.svg"
+                                                        src={`/${plugins?.img}`}
                                                         alt="object not found"
                                                         className="w-full"
                                                     />
                                                 </div>
                                                 <Text
                                                     style="text-sm text-start"
-                                                    value={plugins}
+                                                    value={plugins?.value}
                                                 />
                                             </div>
                                             <div className="flex gap-2 items-center">

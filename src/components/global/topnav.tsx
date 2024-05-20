@@ -1,4 +1,15 @@
 import { AiOutlineMenu } from "react-icons/ai";
+// import{
+//     NavigationMenu,
+//     NavigationMenuContent,
+//     NavigationMenuIndicator,
+//     NavigationMenuLink,
+//     NavigationMenuList,
+//     NavigationMenuTrigger,
+//     NavigationMenuViewport,
+//     NavigationMenuItem
+// } from "../ui/navigation-menu"
+import Avatar from 'react-avatar';
 
 export const TopNav =()=>{
     return(
@@ -29,18 +40,30 @@ export const TopNav =()=>{
                     </div>
                     
                 </div>
-                <div className="flex gap-[0.5rem] items-center"> 
-                    <span className="border border-[grey] p-2 rounded">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="grey" className="w-6 h-6">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
-                        </svg>
-                    </span>
-                    <span className="relative rounded w-[2.6rem] h-[2.8rem]">
-                        <img 
-                            src="/laundry img.svg"
-                            alt="object not found"
-                            className="w-full object-cover"
-                        />
+                <div className="flex gap-[0.5rem] items-center bg-[grey] p-4 rounded-md"> 
+                    <span>
+                    <   Avatar name="Hamzat lawal" size={"150"} round={true}/>
+                        {/* <NavigationMenu>
+                            <NavigationMenuList>
+                                <NavigationMenuItem>
+                                <NavigationMenuTrigger></NavigationMenuTrigger>
+                                <NavigationMenuContent>
+                                    <ul className="w-[4rem]">
+                                        <li>
+                                            <NavigationMenuLink asChild>
+                                            <a
+                                                className="text-sm flex w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-4 no-underline outline-none focus:shadow-md"
+                                                href="#"
+                                            >
+                                                Log Out
+                                            </a>
+                                            </NavigationMenuLink>
+                                        </li>
+                                    </ul>
+                                </NavigationMenuContent>
+                                </NavigationMenuItem>
+                            </NavigationMenuList>
+                            </NavigationMenu> */}
                     </span>
                 </div>
             </div>
