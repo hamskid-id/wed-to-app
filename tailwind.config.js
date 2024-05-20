@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
@@ -21,6 +22,10 @@ module.exports = {
         'sm':"320px",
       },
       colors: {
+        gray1: "#CCCCCC",
+        deepgray: "#F2F2F2",
+        lightgreen: "#B1DDA8",
+        lightgreen1: "#3DAB25",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
