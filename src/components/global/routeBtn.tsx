@@ -24,10 +24,13 @@ export const RouteBtn =({
                 href="#"
                 data-te-sidenav-link-ref
             >
-                <span
-                    className="mr-4 [&>svg]:h-3.5 [&>svg]:w-3.5  [&>svg]:transition [&>svg]:duration-300 [&>svg]:ease-linear group-hover:[&>svg]:border-[red]-600 group-focus:[&>svg]:border-[red]-600 group-active:[&>svg]:border-[red]-600 group-[te-sidenav-state-active]:[&>svg]:border-[red]-600 motion-reduce:[&>svg]:transition-none dark:[&>svg]:fill-gray-300 dark:group-hover:[&>svg]:fill-gray-300 ">
-                    {icon}
-                </span>
+                <div className=" w-[0.8rem] h-[0.8rem] relative me-4">
+                    <img
+                        src={`/${icon}`}
+                        alt="object not found"
+                        className="w-full"
+                    />
+                </div>
                 <Text
                     style={`${pathname ===`/dashboard${route}`?"text-[#064e3b]":"text-black"} text-md`}
                     value={name}

@@ -3,7 +3,6 @@ import { SelectInput } from "@/components/global/selectInput"
 import { Text } from "@/components/global/text"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { AiOutlineUsergroupAdd } from "react-icons/ai"
 import { SelectItem } from "@/components/ui/select"
 
 export const AppAccess =()=>{
