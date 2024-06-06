@@ -101,7 +101,7 @@ export function SigninForm() {
                 <Text
                     style="text-sm text-grey font-light mb-4 text-start"
                     value="Forget Password? Reset here"
-                    clickFunc={()=>navigate("/auth/password_reset")}
+                    clickFunc={()=>navigate("/auth/reset_password")}
                 />
                 <div 
                     className="flex justify-end items-end bg-[#24243E] rounded-md mt-4"

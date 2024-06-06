@@ -25,9 +25,9 @@ export const AppLayout=({
                             style="relative desktopNav w-60 overflow-hidden dark:bg-zinc-800 bg-white me-1"/>
                     </div>
                     <div className="w-full h-full lg:pt-8 xl:pt-8 md:pt-8 sm:pt-2 xs:pt-2 bg-white rounded-md">
-                        <ScrollArea className="px-4 h-full w-full h-full">
+                        <div className="px-4 w-full overflow-auto h-full">
                             {children}
-                        </ScrollArea>
+                        </div>
                     </div>
                 </div>
             </div>
